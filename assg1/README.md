@@ -1,4 +1,4 @@
-#  Assignment 1
+#  File Explorer Application
 
 ---
 - Compile using g++ main.cpp  and then execute using ./a.out
