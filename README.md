@@ -1,19 +1,3 @@
-#  Assignment 1
-
----
-- Compile using g++ main.cpp  and then execute using ./a.out
-- On executing the filr explorer opens in normal mode
-- The application is executed in non-canonical mode and on exit settings are restored
-- To exit press `Ctrl+c` , on doing so gracefull exit is done by clearing terminal and restoring all configurations
-
-## Normal Mode
-
-- All the files are displayed in tabs as file permissions, size ,date and filename
--
-
-## Command Mode
-- All the paths are considered with respect to the home i.e. in our case the place from where the application is started.
-- In case of any invalid command or invalid command structure appropriate messages are provided
 
 
 # About the project-
@@ -23,6 +7,9 @@ Building a fully functional file explorer application, albeit with restricted fe
 - NORMAL MODE
 - COMMAND MODE
 
+- On executing the file explorer opens in normal mode
+- The application is executed in non-canonical mode and on exit settings are restored
+- To exit press `Ctrl+c` , on doing so gracefull exit is done by clearing terminal and restoring all configurations
 
 
 ## Normal Mode-
@@ -39,7 +26,8 @@ Building a fully functional file explorer application, albeit with restricted fe
 - k and l : moves up  or down the file system by page up or down in case of overflow
 
 ## Command Mode-
-This mode is entered from Normal mode whenever : is pressed.
+- This mode is entered from Normal mode whenever : is pressed.
+- In case of any invalid command or invalid command structure appropriate messages are provided
 
 ### Following commands are supported:
 - COPY: copy <file_name(s)> <target_directory_path>
