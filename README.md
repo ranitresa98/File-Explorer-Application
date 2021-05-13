@@ -1,6 +1,6 @@
 
 
-# About the project-
+# File Explorer Application
 ----------------------------------
 Building a fully functional file explorer application, albeit with restricted features. The application supports two modes:
 
